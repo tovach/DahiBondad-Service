@@ -2,6 +2,11 @@
 @import "blocks/navigation/navigation";
 @import "blocks/search/search";
 @import "blocks/button/button";
+@import "blocks/badge/badge";
+@import "blocks/advantages/advantages";
 
 // common modules
 @import "common/header/header";
+
+// sections
+@import "sections/hero/hero";

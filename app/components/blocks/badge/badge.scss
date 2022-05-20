@@ -1,0 +1,19 @@
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.badge__text {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--emphases-primary);
+}
+
+.badge__line {
+  display: block;
+  width: 70px;
+  height: 1px;
+  background: var(--emphases-primary);
+}
