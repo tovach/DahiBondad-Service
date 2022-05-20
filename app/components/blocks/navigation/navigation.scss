@@ -1,0 +1,40 @@
+.navigation {
+  padding-top: 30px;
+}
+
+.navigation__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navigation__logo {
+}
+
+.navigation__nav {
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__item {
+  text-transform: uppercase;
+}
+
+.nav__link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--text-secondary);
+}
+
+.navigation__search {
+  margin-left: auto;
+}
