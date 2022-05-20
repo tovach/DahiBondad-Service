@@ -1,0 +1,45 @@
+.about-us {
+}
+
+.about-us__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.about-us__img {
+  max-width: 565px;
+}
+
+.about-us__img img {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.about-us__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+}
+
+.about-us__badge {
+}
+
+.about-us__heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: var(--text-secondary);
+}
+
+.about-us__text {
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--text-secondary);
+}
+
+.about-us__more {
+  align-self: start;
+}

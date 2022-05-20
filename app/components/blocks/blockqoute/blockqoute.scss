@@ -1,0 +1,33 @@
+.blockqoute {
+}
+
+.blockqoute__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blockqoute__img {
+  width: 220px;
+}
+
+.blockqoute__img img {
+  width: 100%;
+}
+
+.blockqoute__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 730px;
+}
+
+.blockqoute__text {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  color: var(--text-secondary);
+}
+
+.blockqoute__badge {
+  align-self: flex-end;
+}
