@@ -1,0 +1,37 @@
+.exploration {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.exploration__bg img {
+  display: flex;
+  width: 100%;
+}
+
+.exploration__content {
+  position: absolute;
+  top: 10%;
+}
+
+.exploration__badge {
+}
+
+.exploration__heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: var(--heading-primary);
+}
+
+.exploration__text {
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--text-primary);
+}
+
+.exploration__more {
+}
+
+.exploration__blockqoute {
+  margin-top: 90px;
+}
