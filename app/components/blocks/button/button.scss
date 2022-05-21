@@ -19,4 +19,18 @@
 }
 
 .button--secondary {
+  padding: 15px 35px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--text-primary);
+  box-shadow: 0 6px 25px #0e22401a;
+  border-radius: 5px;
+  background: var(--bg-secondary);
+  text-transform: uppercase;
+}
+
+.button--secondary:hover, .active {
+  background: var(--bg-tertiary);
+  color: var(--white);
 }
