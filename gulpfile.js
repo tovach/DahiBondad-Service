@@ -116,7 +116,6 @@ function buildcopy() {
     ],
     { base: "app/" }
   )
-    .pipe(replace(new RegExp("images/src", "g"), "images/compressed"))
     .pipe(dest("dist"));
 }
 
@@ -124,12 +123,6 @@ async function buildhtml() {
   let includes = new ssi("app/", "dist/", "/**/*.html");
   includes.compile();
   del("dist/components", { force: true });
-}
-
-function replaceImagesPaths() {
-  return src(["dist/*.html"])
-    .pipe(replace(new RegExp("images/src", "g"), "images/compressed"))
-    .pipe(dest("dist/"));
 }
 
 async function cleandist() {
@@ -161,7 +154,6 @@ export let build = series(
   stylesBuild,
   buildcopy,
   buildhtml,
-  replaceImagesPaths
 );
 
 export default series(
