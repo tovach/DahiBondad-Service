@@ -1,8 +1,12 @@
 .paper {
-  position: relative;
-  width: 100%;
   max-width: 550px;
+}
+
+.paper--primary {
   padding: 50px 30px;
-  background: var(--white);
   clip-path: polygon(0 0, 100% 0, 100% 65%, 80% 100%, 0 100%, 0% 40%);
+}
+
+.paper--secondary {
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
 }
