@@ -30,7 +30,7 @@
   text-transform: uppercase;
 }
 
-.button--secondary:hover, .active {
+.button--secondary:hover, .button--secondary.active {
   background: var(--bg-tertiary);
   color: var(--white);
 }
