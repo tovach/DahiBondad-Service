@@ -1,6 +1,6 @@
 .button {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   background: transparent;
   border: 1px solid transparent;
@@ -15,7 +15,6 @@
   border-radius: 5px;
   gap: 10px;
   color: var(--emphases-primary);
-  line-height: 10px;
 }
 
 .button--secondary {
