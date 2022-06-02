@@ -9,9 +9,10 @@
 }
 
 .exploration__content {
-  background: var(--white);
   position: absolute;
+  background: var(--white);
   top: 10%;
+  max-width: 570px;
 }
 
 .exploration__badge {
